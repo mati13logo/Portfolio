@@ -18,6 +18,7 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    max-height: 12rem;
 }
 
 .portfolio__item h3 {

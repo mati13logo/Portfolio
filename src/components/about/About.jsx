@@ -1,14 +1,14 @@
 import React from 'react'
 import './about.css'
 import foto from '../../assets/fotoPerfilConFondo.jpg'
-import {FaAward} from 'react-icons/fa'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import { FaAward } from 'react-icons/fa'
+import { VscFolderLibrary } from 'react-icons/vsc'
 
 const About = () => {
   return (
     <section id='about'>
-      <h5>get to know</h5>
-      <h2>About me</h2>
+      <h5>Conoce mas</h5>
+      <h2>Sobre mi</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -18,19 +18,28 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <FaAward className='about__icon'/>
+              <FaAward className='about__icon' />
               <h5>Experiencia</h5>
               <small> 1+ año trabajando</small>
             </article>
 
             <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
+              <VscFolderLibrary className='about__icon' />
               <h5>Proyectos</h5>
-              <small>Aprendiendo cada dia</small>
+              <small>3 Proyectos</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nobis ea itaque quas et ex iure qui dolorem sed cumque saepe natus molestias consequatur animi, obcaecati sequi ipsam optio recusandae.
+            Tengo 26 años, actualmente vivo en
+            Trenque Lauquen provincia de Buenos
+            Aires, Argentina. Me interesa el mundo
+            de la tecnología, siempre quise realizar
+            algo que cause un impacto en la
+            sociedad y que pueda facilitar el día a
+            día de las personas.
+            Me gusta ser autodidacta, aprender de
+            los demás y enseñar lo que aprendo.
+            Aficionado del deporte y la tecnología.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Contactame</a>
