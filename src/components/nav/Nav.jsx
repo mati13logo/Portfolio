@@ -1,5 +1,5 @@
 import React from 'react'
-import './Nav.css'
+import './nav.css'
 import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai'
 import {BiBook, BiMessageSquareDetail} from 'react-icons/bi'
 import { useState } from 'react'
