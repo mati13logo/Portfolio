@@ -16,7 +16,7 @@ const Portfolio = () => {
           <h3> Pokemon-app</h3>
           <div className="portfolio__item-cta">
             <a href='https://github.com/mati13logo/Proyecto-Pokemon' className='btn' target='_blank'>Github</a>
-            <a href='/' className='btn btn-primary' target='_blank'>Demo</a>
+            <a href='https://pokemons-app-rho.vercel.app/' className='btn btn-primary' target='_blank'>Demo</a>
           </div>
         </article>
 
